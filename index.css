@@ -1,0 +1,373 @@
+:root{
+    --gry : rgb(230, 237, 238);
+    --skyblue :rgb(122, 193, 219);
+    --red :rgb(255, 0, 0);
+    --dackblue :rgb(6, 4, 44);
+    --white :rgb(255, 255, 255);
+    --green :rgb(0, 255, 0);
+    --whitegreen :rgb(99, 201, 99);
+    --black :rgb(0, 0, 0);
+    --bref :rgb(167, 164, 164);
+}
+body{
+    background-color: var(--white);
+}
+.p{
+    background-color:var(--white);
+    text-align: center
+}
+.navbar{ 
+    display: flex; 
+    flex-direction:row;
+    gap: 100px;
+    background-color: var(--gry);
+    height:70px;
+} 
+.navbar .search input{
+    font-size: 20px;
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+}
+.navbar .links a{
+    color: var(--dackblue);
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 30px;
+    gap: 45px;
+}
+.navbar .links:hover{
+    text-decoration:underline
+}
+.navbar .links{
+    margin-top: 20px;
+}
+.navbar .btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+}
+.btn button{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+}
+.btn .Signup{
+    background-color: var(--dackblue);
+    color: var(--white);
+}
+.btn .Signup:hover{
+    background-color: var(--white);
+    color: var(--dackblue);
+}
+.navbar .btn .Login{
+   background-color:var(--white);
+   color: var(--dackblue);
+   
+}
+.btn .Login:hover{
+    border: 5px;
+    color: var(--white);
+    background: var(--dackblue);
+}
+.navbar .logo{
+    margin-top:0px;
+    font-size: 40px;
+    width: 90px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+}
+.navbar .search{
+    margin-top:10px;
+}
+.look{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 21px;
+  padding:0px;
+}
+.words{
+    color: var(--black);
+  display: flex; 
+  text-align: center;
+  margin-left: 210px;
+}
+.products{
+  display: flex;
+  margin-left: 0px;
+  text-align: center;
+}
+footer{
+    text-align: center;
+    color: var(--dackblue);
+    font-size: 20px;
+    background-color: var(--gry);
+    border-radius: 10px;
+}
+footer img{
+  position:absolute;
+  left: 20px; 
+  height: 150px;
+  margin-top: 15px;
+}
+.account{
+    display: flex;
+    margin-left: 450px;
+}
+.account button{
+    border-radius: 500px;
+    background-color: var(--dackblue);
+    color: var(--white);
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+}
+.account button:hover{
+    background-color: var(--white);
+    color: var(--dackblue);
+}
+.ac{
+    display: flex;
+    margin-left: 200px;
+}
+.fom{
+    border: 10px solid var(--bref);
+    border-radius:50px;
+    background-color: var(--gry);
+}
+h1{
+    text-align: center;
+}
+.fo form {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  margin-left: 200px;
+}
+.fom P{
+    margin-left: 45px;
+    font-size: 30px;
+}
+label{ 
+    display:flex;
+    margin-left:20px;
+    font-size: 30px;
+}
+.fom input{
+    height:30px ;
+    width: 300px;
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+select{
+    height:30px ;
+    width: 300px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.lg{
+    border: 5px solid var(--black);
+    border-radius:10px;
+    background-color: var(--gry);
+    height: 600px;
+}
+.lg form{
+    margin-left:450px;
+}
+.lg input{
+    height:30px ;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.fom .btnin{
+    height:30px ;
+    width: 300px;
+    border-radius: 100px;
+    font-size: 18px;
+}
+.car button{
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.car button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.boot button{
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.boot button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.jet button{
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.jet button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.biyscle button{
+
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.biyscle button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.skate button{
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.skate button :hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.moto button{
+    width: 130px;
+    color: var(--white);
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    background-color: var(--dackblue);
+}
+.moto button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+.jet{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+}
+.car{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+}
+.moto{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+  
+}
+.biyscle{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+}
+.boot{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+}
+.skate{
+    width: 400px;
+    height: 370px;
+    border-radius: 70px;
+    margin-left: 30px;
+    border: 2px solid var(--black);
+}
+.car img{
+     border-radius: 70px;
+    height: 200px;
+    width: 390px;
+    margin-left: 5px;
+}
+.moto img{
+    margin-left: 5px;
+    width: 390px;
+    height: 200px;
+    border-radius: 70px;
+}
+.biyscle img{
+    margin-left: 5px;
+    width: 390px;
+    height: 200px;
+    border-radius: 70px;
+}
+.boot img{
+    border-radius: 70px;
+    width: 390px;
+    height: 200px;
+    margin-left: 5px;
+}
+.jet img{
+    margin-left: 5px;
+    width: 390px;
+    height: 190px;
+    border-radius: 70px;
+}
+.skate img{
+    margin-left: 5px;
+    width: 390px;
+    height: 200px;
+    border-radius: 70px;
+}
+.prod{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 15px;
+    border-radius: 70px;
+    background-color: var(--white); 
+}
+p{
+    text-align: center;
+}
+.ny{
+    background-color: var(--white);
+    
+}
+.ny button{
+    background-color: var(--dackblue);
+    color: var(--white);
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+}
+.ny button:hover{
+    color: var(--dackblue);
+    background-color: var(--white);
+}
+strong{
+    margin-left: 70px; 
+    font-size: 25px;
+}
